@@ -5,7 +5,7 @@ use warnings;
 
 our $VERSION = "0.01";
 
-use base qw(Acme::Hoge Acme::Fuga);
+use parent qw(Acme::Hoge Acme::Fuga);
 
 sub new {
     my $class = shift;
