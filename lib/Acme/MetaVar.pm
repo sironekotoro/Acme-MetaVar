@@ -5,12 +5,11 @@ use warnings;
 
 our $VERSION = "0.01";
 
-use Acme::Hoge;
-use Acme::Fuga;
+use base qw(Acme::Hoge Acme::Fuga);
 
 sub new {
     my $class = shift;
-    my $self = bless {}, $class;
+    my $self  = bless {}, $class;
     return $self;
 }
 
