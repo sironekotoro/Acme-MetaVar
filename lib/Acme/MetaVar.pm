@@ -5,7 +5,15 @@ use warnings;
 
 our $VERSION = "0.01";
 
+sub new {
+    my $class = shift;
+    my $self = bless {}, $class;
+    return $self;
+}
 
+sub hoge {
+    return "hoge";
+}
 
 1;
 __END__
