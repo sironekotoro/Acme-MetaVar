@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/sironekotoro/Acme-MetaVar.svg?branch=master)](https://travis-ci.org/sironekotoro/Acme-MetaVar)
 # NAME
 
 Acme::MetaVar - It's new $module
