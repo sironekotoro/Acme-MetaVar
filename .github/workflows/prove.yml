@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup perl
         uses: shogo82148/actions-setup-perl@v1
-      - run: perl -V
-      # - run: cpanm --installdeps .
+        with:
+          perl-version: '5.32'
       - run: prove -l t
