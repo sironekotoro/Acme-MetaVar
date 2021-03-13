@@ -1,0 +1,14 @@
+name: prove
+on: push
+
+jobs:
+  build:
+    name: prove
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup perl
+        uses: shogo82148/actions-setup-perl@v1
+      - run: perl -V
+      # - run: cpanm --installdeps .
+      - run: prove -l t
