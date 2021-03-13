@@ -1,4 +1,4 @@
-package Acme::Hoge;
+package Acme::MetaVar::Hoge;
 use 5.008001;
 use strict;
 use warnings;

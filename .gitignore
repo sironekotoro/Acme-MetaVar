@@ -29,3 +29,4 @@ cover_db/
 MYMETA.*
 
 /Acme-MetaVar-*
+Makefile

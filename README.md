@@ -9,7 +9,7 @@ Acme::MetaVar - It's new $module
 
 # DESCRIPTION
 
-Acme::MetaVar is ...
+Acme::MetaVar is A module for sironekotoro to use for blog commentary and other purposes.
 
 # LICENSE
 

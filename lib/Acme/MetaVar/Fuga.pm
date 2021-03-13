@@ -1,4 +1,4 @@
-package Acme::Fuga;
+package Acme::MetaVar::Fuga;
 use 5.008001;
 use strict;
 use warnings;

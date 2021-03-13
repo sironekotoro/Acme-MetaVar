@@ -3,9 +3,14 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
-use parent qw(Acme::Hoge Acme::Fuga);
+use FindBin;
+use lib "$FindBin::Bin/lib";
+use parent qw/
+    Acme::MetaVar::Hoge
+    Acme::MetaVar::Fuga
+    /;
 
 sub new {
     my $class = shift;
@@ -28,7 +33,7 @@ Acme::MetaVar - It's new $module
 
 =head1 DESCRIPTION
 
-Acme::MetaVar is ...
+Acme::MetaVar is A module for sironekotoro to use for blog commentary and other purposes.
 
 =head1 LICENSE
 

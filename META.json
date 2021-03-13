@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "parent" : "0",
             "perl" : "5.008001"
          }
       },
@@ -63,7 +64,7 @@
          "web" : "https://github.com/sironekotoro/Acme-MetaVar"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_serialization_backend" : "JSON::PP version 4.05",
    "x_static_install" : 1
 }
