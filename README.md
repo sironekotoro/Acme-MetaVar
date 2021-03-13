@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/sironekotoro/Acme-MetaVar.svg?branch=master)](https://travis-ci.org/sironekotoro/Acme-MetaVar)
+[![Build Status](https://travis-ci.com/sironekotoro/Acme-MetaVar.svg?branch=master)](https://travis-ci.com/sironekotoro/Acme-MetaVar) [![Actions Status](https://github.com/sironekotoro/Acme-MetaVar/workflows/prove/badge.svg)](https://github.com/sironekotoro/Acme-MetaVar/actions)
 # NAME
 
 Acme::MetaVar - It's new $module
